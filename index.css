@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+
+html, body {
+  height: 100%;
+  width: 100%;
+   
+}
+body {
+  margin: 0;
+  display: flex;
+  background-color: rgb(255, 255, 255);
+    font-family: Roboto;
+}
+canvas {
+
+  margin: 0;
+}
