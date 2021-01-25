@@ -1,6 +1,5 @@
-# LAB2
+# Disassemblaggio
 
-Disassemblaggio
-LAB SUPSI 2020
+Progetto LAB 2020
 
 [Link progetto](https://danijeluuz.github.io/LAB2/)
