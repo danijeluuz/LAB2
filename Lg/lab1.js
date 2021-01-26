@@ -7,9 +7,9 @@ console.log("stauts 0");
 
 		function preload() {
 			
-			sony = loadImage('img/xperia.png');
-			for (let i =0; i < 34; i++){
-				sonyComp[i] = loadImage('img/Sony' + i + '.png');
+			sony = loadImage('img/lg.png');
+			for (let i =0; i < 19; i++){
+				sonyComp[i] = loadImage('img/lgc' + i + '.png');
 			}
 		}
 
