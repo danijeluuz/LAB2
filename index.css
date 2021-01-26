@@ -7,11 +7,32 @@ html, body {
 }
 body {
   margin: 0;
-  display: flex;
   background-color: rgb(255, 255, 255);
-    font-family: Roboto;
+  font-family: Roboto;
 }
 canvas {
 
   margin: 0;
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+  border: 1px solid rgb(170, 170, 170);
+}
+li a{
+  display: block;
+  text-align: center;
+  padding: 10px 0;
+  text-decoration: none;
+  color: #000000;
+  border-bottom: 1px solid  rgb(170, 170, 170);
+}
+
+li a:hover{
+  background-color:#555;
+  color: whitesmoke;
 }
