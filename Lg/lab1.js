@@ -20,7 +20,7 @@ console.log("stauts 0");
 			for(let i = 0; i < 45; i++){
 				let x = random(width);
 				let y = random(height);
-				let r = random(100, 210);
+				let r = random(90, 210);
 				let sonyComponents = random(sonyComp);
 				let xperia = sony;
 				let b = new Bubble(x, y, r, sonyComponents, xperia);
@@ -72,27 +72,6 @@ console.log("stauts 0");
 				this.x = this.x + random(mouseX/400, -mouseX/400);
 				this.y = this.y + random(-mouseY/400, mouseY/400);
 
-				
-
-				//for(this.x < windowWidth &&  this.x < windowHeight){
-			
-				//	this.x = random(windowHeight/2,windowWidth/2);
-				//	this.y = random(windowHeight/2,windowWidth/2);
-				//frameRate(1);
-				//}
-
-				/*this.x = this.x + (mouseX/500) - (mouseY/500);
-				this.y = this.y - (mouseY/500) + (mouseX/500);*/
-			
-			/*push();
-			for(let i = 0; i < 5; i ++){
-					this.x++;
-					frameRate(10);
-
-				}
-			pop();
-			*/
-
 			}
 		
 
@@ -100,16 +79,6 @@ console.log("stauts 0");
 				
 				image(this.sonyComponents, this.x, this.y);
 				image(sony, (width/2-60) , (height/2-110));	
-					
-				
-
-				
-				//image(sony, this.x, this.y);
-				
-				/*stroke(255);
-				strokeWeight(4);
-				noFill();
-				ellipse(this.x, this.y, this.r *2);*/
 			}
 
 		
